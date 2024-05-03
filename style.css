@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(136deg, pink, blue);
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: linear-gradient(100deg, rgb(211, 12, 201), rgb(8, 81, 216));
+    box-shadow: 2px 2px 3px 2px rgb(159, 32, 233);
+    min-height: 90vh;
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 0 1rem;
+}
+
+#heading h1 {
+    padding: 2rem;
+    color: white;
+}
+
+.input-field {
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 1rem 0;
+}
+
+#input-box {
+    padding: 10px;
+    width: 45vw;
+    border-radius: 1rem;
+    background: linear-gradient(136deg, rgb(120, 120, 218), rgb(229, 203, 207));
+}
+
+#input-btn {
+    padding: 0.8rem 2rem;
+    border-radius: 1rem;
+    background: linear-gradient(136deg, blue, pink);
+    color: wheat;
+}
+
+.lists {
+    color: wheat;
+    margin-top: 1rem;
+}
+
+.data li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(136deg, rgb(43, 100, 223), rgb(143, 6, 148));
+    color: wheat;
+    font-size: 2rem;
+    width: 60vw;
+    border-radius: 2rem 0;
+    padding: 0.5rem 1rem;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.39);
+    cursor: pointer;
+}
+
+.checked {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(226, 54, 54, 0.39);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.content input {
+    background: transparent;
+    width: 40vw;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border: transparent;
+}
+
+.borderVisible {
+    height: 130%;
+    box-shadow: 2px 1px 3px 1px rgb(253, 254, 255);
+}
+
+.checkedVal {
+    text-decoration-line: line-through;
+}
+
+.edit_del {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 10px;
+    font-size: 11px;
+    cursor: pointer;
+}
