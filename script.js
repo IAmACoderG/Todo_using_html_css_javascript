@@ -49,6 +49,8 @@ form.addEventListener("submit", (e) => {
     });
 
     document.querySelector(".data").appendChild(li);
+    inputBox.value = "";
+
 
     addEventListeners(); // Add event listeners for edit and check after adding a new item
 
